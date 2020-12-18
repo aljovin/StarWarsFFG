@@ -8,7 +8,9 @@
       margin-bottom: 10px;
       border: 0;
       .item {
-        line-height: 15px;
+        &.active {
+          color: $swffg-characteristic-color;
+        }
       }
     }
 

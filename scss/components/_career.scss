@@ -1,5 +1,15 @@
 .item-sheet-career {
 
+  $swffg-career-color: rgb(73, 12, 11);
+
+  .tabs {
+    .item {
+      &.active {
+        color: $swffg-career-color;
+      }
+    }
+  }
+
   .sheet-body {
     height: calc(100% - 11.75rem);
   }

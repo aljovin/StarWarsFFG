@@ -2,6 +2,14 @@
   $swffg-talent-color: rgb(130, 21, 23);
   $swffg-talent-color-light:rgb(242, 235, 222);
 
+  .tabs {
+    .item {
+      &.active {
+        color: $swffg-talent-color;
+      }
+    }
+  }
+
   .charname {
     input {
       color: $swffg-talent-color;

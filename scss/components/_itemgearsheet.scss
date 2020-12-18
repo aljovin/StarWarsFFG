@@ -2,6 +2,14 @@
   $swffg-gear-color: rgb(44, 3, 68);
   $swffg-gear-color-light: rgb(233, 198, 253);
 
+  .tabs {
+    .item {
+      &.active {
+        color: $swffg-gear-color;
+      }
+    }
+  }
+
   .charname {
     input {
       color: $swffg-gear-color

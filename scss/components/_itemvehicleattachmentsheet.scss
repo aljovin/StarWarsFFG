@@ -2,6 +2,14 @@
   $swffg-attachment-color: rgb(200, 123, 77);
   $swffg-attachment-color-light:rgb(223, 198, 141);
 
+  .tabs {
+    .item {
+      &.active {
+        color: $swffg-attachment-color;
+      }
+    }
+  }
+
   .charname {
     input {
       color: $swffg-attachment-color;

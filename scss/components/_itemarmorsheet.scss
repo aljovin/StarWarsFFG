@@ -2,6 +2,14 @@
   $swffg-armor-color: rgb(85, 49, 19);
   $swffg-armor-color-light:rgb(233, 192, 158);
 
+  .tabs {
+    .item {
+      &.active {
+        color: $swffg-armor-color;
+      }
+    }
+  }
+
   .charname {
     input {
       color: $swffg-armor-color

@@ -57,12 +57,10 @@
 
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary" style="{{#if limited}}display:none;{{/if}}">
-    <a class="item" data-tab="characteristics">{{localize "SWFFG.TabCharacteristics"}}</a>
-    <a class="item" data-tab="items">{{localize "SWFFG.TabGear"}}</a>
-    <a class="item" data-tab="talents">{{localize "SWFFG.TabTalents"}}</a>
-    <a class="item" data-tab="description">{{localize "SWFFG.TabBiography"}}</a>
-    <!-- <a class="item" data-tab="attributes">Modifiers</a> -->
-    <!-- <a class="item" data-tab="description">{{localize "SWFFG.TabForcePowers"}}</a> -->
+    <a class="item" data-tab="characteristics" title='{{localize "SWFFG.TabCharacteristics"}}'><i class="fas fa-user-circle"></i></a>
+    <a class="item" data-tab="items" title='{{localize "SWFFG.TabGear"}}'><i class="fas fa-toolbox"></i></a>
+    <a class="item" data-tab="talents" title='{{localize "SWFFG.TabTalents"}}'><i class="fab fa-superpowers"></i></a>
+    <a class="item" data-tab="description" title='{{localize "SWFFG.TabBiography"}}'><i class="fas fa-sticky-note"></i></a>
   </nav>
 
   {{!-- Sheet Body --}}

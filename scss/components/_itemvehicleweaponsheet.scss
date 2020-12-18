@@ -2,6 +2,14 @@
   $swffg-weapon-color: rgb(31, 28, 55);
   $swffg-weapon-color-light:rgb(204,202,227);
 
+  .tabs {
+    .item {
+      &.active {
+        color: $swffg-weapon-color;
+      }
+    }
+  }
+
   .charname {
     input {
       color: $swffg-weapon-color;

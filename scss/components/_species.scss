@@ -1,6 +1,14 @@
 .item-sheet-species {
   $swffg-species-color: rgb(73, 12, 11);
   
+  .tabs {
+    .item {
+      &.active {
+        color: $swffg-species-color;
+      }
+    }
+  }
+
   .sheet-header {
     img {
       &.profile-img {
